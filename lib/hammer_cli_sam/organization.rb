@@ -1,6 +1,6 @@
 module HammerCLISAM
 
-  commands = %w{
+  commands = %w(
     add-compute-resource
     add-config-template
     add-domain
@@ -17,7 +17,7 @@ module HammerCLISAM
     remove-medium
     remove-smart-proxy
     remove-subnet
-  }
+  )
 
   commands.each do |cmd|
     HammerCLIKatello::OrganizationCommand.remove_subcommand(cmd)
