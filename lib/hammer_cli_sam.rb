@@ -3,7 +3,8 @@ require 'hammer_cli_katello'
 module HammerCLISAM
 
   commands = %w{
-    architecturecapsule
+    architecture
+    capsule
     compute-resource
     content-view
     domain
@@ -20,8 +21,10 @@ module HammerCLISAM
     model
     os
     package
+    package-group
     partition-table
     proxy
+    puppet-class
     report
     sc-param
     subnet
