@@ -2,7 +2,7 @@ require 'hammer_cli_katello'
 
 module HammerCLISAM
 
-  commands = %w{
+  commands = %w(
     architecture
     capsule
     compute-resource
@@ -29,7 +29,7 @@ module HammerCLISAM
     sc-param
     subnet
     template
-  }
+  )
 
   commands.each do |cmd|
     HammerCLI::MainCommand.remove_subcommand(cmd)

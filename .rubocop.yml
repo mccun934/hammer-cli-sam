@@ -1,0 +1,29 @@
+Documentation:
+  Enabled: false
+
+StringLiterals:
+  Enabled: false
+
+EmptyLinesAroundBody:
+  Enabled: false
+
+HashSyntax:
+  Enabled: false
+
+SpaceInsideHashLiteralBraces:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+LineLength:
+  Max: 100
+
+FormatString:
+  Enabled: false # we use % for i18n
+
+IfUnlessModifier:
+  Enabled: false
+
+Next:
+  Enabled: false # don't force next over conditions

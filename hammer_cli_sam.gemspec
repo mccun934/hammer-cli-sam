@@ -7,16 +7,17 @@ Gem::Specification.new do |spec|
   spec.authors = ['Adam Price']
   spec.email = ['katello@lists.fedorahosted.org']
   spec.license = "GPL-3"
-  spec.description = 'Hammer-CLI-SAM is a module for Hammer to provide connectivity to a SAM server.'
+  spec.description = 'Hammer-CLI-SAM is a Hammer module which provides connectivity' \
+                     ' to a SAM server.'
   spec.summary = 'SAM commands for Hammer'
   spec.homepage = 'http://github.com/Katello/hammer-cli-sam'
 
-  spec.files = %x{git ls-files}.split($/)
+  spec.files = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
 
-  spec.test_files = %x{git ls-files -- {test,spec,features}/*}.split($/)
+  spec.test_files = `git ls-files -- {test,spec,features}/*`.split($INPUT_RECORD_SEPARATOR)
 
   spec.name = 'hammer_cli_sam'
-  spec.require_paths = %w{lib}
+  spec.require_paths = %w(lib)
   spec.version = HammerCLISAM.version
 
   spec.add_dependency 'hammer_cli_katello', '~> 0.0.6'
