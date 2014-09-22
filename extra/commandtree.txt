@@ -147,14 +147,3 @@ hammer > content-host > create
 hammer > content-host > update
 hammer > content-host > delete
 hammer > content-host > tasks
-hammer > content-host > package
-hammer > content-host > package > install
-hammer > content-host > package > upgrade
-hammer > content-host > package > upgrade-all
-hammer > content-host > package > remove
-hammer > content-host > package-group
-hammer > content-host > package-group > install
-hammer > content-host > package-group > remove
-hammer > content-host > errata
-hammer > content-host > errata > apply
-hammer > content-host > errata > info
