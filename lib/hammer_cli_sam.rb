@@ -35,9 +35,9 @@ module HammerCLISAM
     HammerCLI::MainCommand.remove_subcommand(cmd)
   end
 
-  require 'hammer_cli_sam/content_host'
-  require 'hammer_cli_sam/organization'
-  require 'hammer_cli_sam/product'
-  require 'hammer_cli_sam/repository'
+  # require 'hammer_cli_sam/content_host'
+  # require 'hammer_cli_sam/organization'
+  # require 'hammer_cli_sam/product'
+  # require 'hammer_cli_sam/repository'
 
 end

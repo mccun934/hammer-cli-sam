@@ -1,0 +1,160 @@
+hammer > shell
+hammer > console
+hammer > full-help
+hammer > command-tree
+hammer > auth
+hammer > auth > login
+hammer > auth > logout
+hammer > auth > status
+hammer > auth-source
+hammer > auth-source > ldap
+hammer > auth-source > ldap > list
+hammer > auth-source > ldap > info
+hammer > auth-source > ldap > create
+hammer > auth-source > ldap > delete
+hammer > auth-source > ldap > update
+hammer > filter
+hammer > filter > list
+hammer > filter > info
+hammer > filter > create
+hammer > filter > update
+hammer > filter > delete
+hammer > filter > available-permissions
+hammer > filter > available-resources
+hammer > role
+hammer > role > list
+hammer > role > filters
+hammer > role > create
+hammer > role > update
+hammer > role > delete
+hammer > user
+hammer > user > list
+hammer > user > info
+hammer > user > create
+hammer > user > update
+hammer > user > delete
+hammer > user > add-role
+hammer > user > remove-role
+hammer > user-group
+hammer > user-group > list
+hammer > user-group > info
+hammer > user-group > create
+hammer > user-group > update
+hammer > user-group > delete
+hammer > user-group > add-role
+hammer > user-group > remove-role
+hammer > user-group > add-user
+hammer > user-group > remove-user
+hammer > user-group > add-user-group
+hammer > user-group > remove-user-group
+hammer > user-group > external
+hammer > user-group > external > list
+hammer > user-group > external > info
+hammer > user-group > external > refresh
+hammer > user-group > external > create
+hammer > user-group > external > update
+hammer > user-group > external > delete
+hammer > task
+hammer > task > progress
+hammer > activation-key
+hammer > activation-key > list
+hammer > activation-key > info
+hammer > activation-key > create
+hammer > activation-key > update
+hammer > activation-key > delete
+hammer > activation-key > subscriptions
+hammer > activation-key > add-subscription
+hammer > activation-key > remove-subscription
+hammer > activation-key > host-collections
+hammer > activation-key > add-host-collection
+hammer > activation-key > remove-host-collection
+hammer > organization
+hammer > organization > list
+hammer > organization > info
+hammer > organization > update
+hammer > organization > create
+hammer > organization > delete
+hammer > organization > add-hostgroup
+hammer > organization > remove-hostgroup
+hammer > organization > add-environment
+hammer > organization > remove-environment
+hammer > organization > add-domain
+hammer > organization > remove-domain
+hammer > organization > add-medium
+hammer > organization > remove-medium
+hammer > organization > add-subnet
+hammer > organization > remove-subnet
+hammer > organization > add-compute-resource
+hammer > organization > remove-compute-resource
+hammer > organization > add-smart-proxy
+hammer > organization > remove-smart-proxy
+hammer > organization > add-user
+hammer > organization > remove-user
+hammer > organization > add-config-template
+hammer > organization > remove-config-template
+hammer > ping
+hammer > product
+hammer > product > list
+hammer > product > create
+hammer > product > info
+hammer > product > update
+hammer > product > delete
+hammer > product > set-sync-plan
+hammer > product > remove-sync-plan
+hammer > puppet-module
+hammer > puppet-module > list
+hammer > puppet-module > info
+hammer > repository
+hammer > repository > list
+hammer > repository > info
+hammer > repository > synchronize
+hammer > repository > create
+hammer > repository > update
+hammer > repository > delete
+hammer > repository > upload-content
+hammer > repository-set
+hammer > repository-set > list
+hammer > repository-set > info
+hammer > repository-set > available-repositories
+hammer > repository-set > enable
+hammer > repository-set > disable
+hammer > subscription
+hammer > subscription > list
+hammer > subscription > upload
+hammer > subscription > delete-manifest
+hammer > subscription > refresh-manifest
+hammer > subscription > manifest-history
+hammer > sync-plan
+hammer > sync-plan > list
+hammer > sync-plan > info
+hammer > sync-plan > create
+hammer > sync-plan > update
+hammer > sync-plan > delete
+hammer > host-collection
+hammer > host-collection > list
+hammer > host-collection > create
+hammer > host-collection > info
+hammer > host-collection > content-hosts
+hammer > host-collection > copy
+hammer > host-collection > update
+hammer > host-collection > delete
+hammer > host-collection > add-content-host
+hammer > host-collection > remove-content-host
+hammer > content-host
+hammer > content-host > list
+hammer > content-host > info
+hammer > content-host > create
+hammer > content-host > update
+hammer > content-host > delete
+hammer > content-host > tasks
+hammer > content-host > package
+hammer > content-host > package > install
+hammer > content-host > package > upgrade
+hammer > content-host > package > upgrade-all
+hammer > content-host > package > remove
+hammer > content-host > package-group
+hammer > content-host > package-group > install
+hammer > content-host > package-group > remove
+hammer > content-host > errata
+hammer > content-host > errata > apply
+hammer > content-host > errata > info
