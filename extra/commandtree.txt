@@ -74,24 +74,8 @@ hammer > organization > info
 hammer > organization > update
 hammer > organization > create
 hammer > organization > delete
-hammer > organization > add-hostgroup
-hammer > organization > remove-hostgroup
-hammer > organization > add-environment
-hammer > organization > remove-environment
-hammer > organization > add-domain
-hammer > organization > remove-domain
-hammer > organization > add-medium
-hammer > organization > remove-medium
-hammer > organization > add-subnet
-hammer > organization > remove-subnet
-hammer > organization > add-compute-resource
-hammer > organization > remove-compute-resource
-hammer > organization > add-smart-proxy
-hammer > organization > remove-smart-proxy
 hammer > organization > add-user
 hammer > organization > remove-user
-hammer > organization > add-config-template
-hammer > organization > remove-config-template
 hammer > ping
 hammer > product
 hammer > product > list
