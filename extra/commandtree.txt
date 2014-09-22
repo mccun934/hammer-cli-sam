@@ -79,10 +79,7 @@ hammer > organization > remove-user
 hammer > ping
 hammer > product
 hammer > product > list
-hammer > product > create
 hammer > product > info
-hammer > product > update
-hammer > product > delete
 hammer > product > set-sync-plan
 hammer > product > remove-sync-plan
 hammer > puppet-module

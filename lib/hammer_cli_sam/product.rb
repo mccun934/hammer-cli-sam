@@ -7,7 +7,7 @@ module HammerCLISAM
   )
 
   commands.each do |cmd|
-    HammerCLIKatello::ProductCommand.remove_subcommand(cmd)
+    HammerCLI::MainCommand.find_subcommand('product').subcommand_class.remove_subcommand(cmd)
   end
 
 end
