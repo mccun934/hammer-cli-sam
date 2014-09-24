@@ -25,6 +25,7 @@ module HammerCLISAM
     partition-table
     proxy
     puppet-class
+    puppet-module
     report
     sc-param
     subnet
