@@ -8,7 +8,7 @@ module HammerCLISAM
   )
 
   commands.each do |cmd|
-    HammerCLIKatello::RepositoryCommand.remove_subcommand(cmd)
+    HammerCLI::MainCommand.find_subcommand('repository').subcommand_class.remove_subcommand(cmd)
   end
 
 end

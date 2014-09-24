@@ -89,10 +89,6 @@ hammer > repository
 hammer > repository > list
 hammer > repository > info
 hammer > repository > synchronize
-hammer > repository > create
-hammer > repository > update
-hammer > repository > delete
-hammer > repository > upload-content
 hammer > repository-set
 hammer > repository-set > list
 hammer > repository-set > info
