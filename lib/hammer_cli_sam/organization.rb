@@ -20,7 +20,7 @@ module HammerCLISAM
   )
 
   commands.each do |cmd|
-    HammerCLIKatello::OrganizationCommand.remove_subcommand(cmd)
+    HammerCLI::MainCommand.find_subcommand('organization').subcommand_class.remove_subcommand(cmd)
   end
 
 end

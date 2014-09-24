@@ -7,7 +7,7 @@ module HammerCLISAM
   )
 
   commands.each do |cmd|
-    HammerCLIKatello::ContentHostCommand.remove_subcommand(cmd)
+    HammerCLI::MainCommand.find_subcommand('content-host').subcommand_class.remove_subcommand(cmd)
   end
 
 end
