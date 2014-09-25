@@ -21,6 +21,16 @@ hammer > filter > update
 hammer > filter > delete
 hammer > filter > available-permissions
 hammer > filter > available-resources
+hammer > location
+hammer > location > list
+hammer > location > info
+hammer > location > create
+hammer > location > update
+hammer > location > delete
+hammer > location > add-user
+hammer > location > remove-user
+hammer > location > add-organization
+hammer > location > remove-organization
 hammer > role
 hammer > role > list
 hammer > role > filters
