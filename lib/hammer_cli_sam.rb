@@ -16,7 +16,6 @@ module HammerCLISAM
     host
     hostgroup
     lifecycle-environment
-    location
     medium
     model
     os
@@ -37,6 +36,7 @@ module HammerCLISAM
   end
 
   require 'hammer_cli_sam/content_host'
+  require 'hammer_cli_sam/location'
   require 'hammer_cli_sam/organization'
   require 'hammer_cli_sam/product'
   require 'hammer_cli_sam/repository'
