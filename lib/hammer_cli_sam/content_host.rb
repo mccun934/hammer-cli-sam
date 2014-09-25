@@ -1,6 +1,7 @@
 module HammerCLISAM
 
   commands = %w(
+    create
     package
     package-group
     errata

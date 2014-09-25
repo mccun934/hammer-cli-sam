@@ -127,7 +127,6 @@ hammer > host-collection > remove-content-host
 hammer > content-host
 hammer > content-host > list
 hammer > content-host > info
-hammer > content-host > create
 hammer > content-host > update
 hammer > content-host > delete
 hammer > content-host > tasks
