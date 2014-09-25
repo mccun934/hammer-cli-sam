@@ -82,9 +82,6 @@ hammer > product > list
 hammer > product > info
 hammer > product > set-sync-plan
 hammer > product > remove-sync-plan
-hammer > puppet-module
-hammer > puppet-module > list
-hammer > puppet-module > info
 hammer > repository
 hammer > repository > list
 hammer > repository > info
