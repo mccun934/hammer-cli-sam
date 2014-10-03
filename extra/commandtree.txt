@@ -90,6 +90,7 @@ hammer > ping
 hammer > product
 hammer > product > list
 hammer > product > info
+hammer > product > synchronize
 hammer > product > set-sync-plan
 hammer > product > remove-sync-plan
 hammer > repository
