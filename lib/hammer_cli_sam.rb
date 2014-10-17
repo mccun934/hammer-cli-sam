@@ -35,6 +35,9 @@ module HammerCLISAM
     HammerCLI::MainCommand.remove_subcommand(cmd)
   end
 
+  require 'hammer_cli_sam/exclude_mixin'
+
+  require 'hammer_cli_sam/activation_key'
   require 'hammer_cli_sam/content_host'
   require 'hammer_cli_sam/location'
   require 'hammer_cli_sam/organization'
