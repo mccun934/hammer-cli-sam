@@ -12,9 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'SAM commands for Hammer'
   spec.homepage = 'http://github.com/Katello/hammer-cli-sam'
 
-  spec.files = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
-
-  spec.test_files = `git ls-files -- {test,spec,features}/*`.split($INPUT_RECORD_SEPARATOR)
+  spec.files = Dir['{lib}/**/*', 'LICENSE', 'README.md']
 
   spec.name = 'hammer_cli_sam'
   spec.require_paths = %w(lib)
